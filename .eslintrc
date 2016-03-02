@@ -12,6 +12,11 @@
   "globals": {
     "angular": true,
     "module": true,
-    "inject": true
+    "inject": true,
+    "_": true,
+    "d3": true,
+    "topojson":true,
+    "$":true,
+    "randomColor":true
   }
 }

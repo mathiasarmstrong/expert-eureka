@@ -29,11 +29,11 @@ path {
 	&.street{
 		stroke:grey;  	
 	}
-}
-.overlay {
-  fill: none;
   pointer-events: all;
 }
+// .overlay {
+//   fill: none;
+// }
 svg {
   background: #eee;
 }
