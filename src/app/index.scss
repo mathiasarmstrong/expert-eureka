@@ -1,0 +1,45 @@
+/**
+ *  If you want to override some bootstrap variables, you have to change values here.
+ *  The list of variables are listed here bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_variables.scss
+ */
+$navbar-inverse-link-color: #5AADBB;
+$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/**
+ *  Do not remove the comments below. It's the markers used by wiredep to inject
+ *  sass dependencies when defined in the bower.json of your dependencies
+ */
+// bower:scss
+// endbower
+
+path {
+  fill: none;
+  stroke: #000;
+  stroke-width: .25px;
+  stroke-linejoin: round;
+	&.artery{
+		stroke:red;  	
+	}
+	&.freeway{
+		stroke:black;  	
+	}
+	&.neighborhood{
+		stroke:blue;  	
+	}
+	&.street{
+		stroke:grey;  	
+	}
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+svg {
+  background: #eee;
+}
+.routes{
+	display:flex;
+	&>*{
+		flex:1 0 0%;
+	}
+}
