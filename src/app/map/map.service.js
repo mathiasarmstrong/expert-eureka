@@ -27,7 +27,7 @@ export default class MapSevice {
     svg.call(this.zoom)    
       .call(this.zoom.event)    
     
-    d3.json("app/main/sf.json",(error, sf)=>{
+    d3.json("app/map/sf.json",(error, sf)=>{
       if (error) return _$log.error(error);
       let featureCollection = topojson.feature(sf, sf.objects.neighborhoods);
       let bounds = d3.geo.bounds(featureCollection);

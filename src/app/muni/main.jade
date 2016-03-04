@@ -1,0 +1,8 @@
+.routes
+	button.btn.btn-default(title="Simple Tooltip" ng-click="main.filterRoutes(main.chosenRoute='')") Clear Filter
+	div
+		select.form-control(ng-model="main.chosenRoute"
+			ng-change="main.filterRoutes(main.chosenRoute)")
+			option(value="") No Filter
+			option(value="{{route}}" ng-repeat="route in main.routes") {{route}}
+#map

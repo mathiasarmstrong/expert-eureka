@@ -1,5 +1,5 @@
 import { routerConfig } from './index.route';
-import MainController from './main/main.controller';
+import MainController from './muni/main.controller';
 import MapService from './map/map.service';
 import BusService from './bus/bus.service';
 
